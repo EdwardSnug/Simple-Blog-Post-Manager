@@ -4,7 +4,7 @@
       "id": 1,
       "heading": "The Future of Web Development",
       "authorname": "Juliet Wangari",
-      "imageURL": "https://example.com/images/future-web.jpg",
+      "imageURL": "https://www.pinterest.com/pin/13933080092235633/",
       "comments": [
         "Great insights!",
         "Loved the part about AI and web3.",
@@ -15,56 +15,56 @@
       "id": 2,
       "heading": "How to Master JavaScript",
       "authorname": "Erick Karanja",
-      "imageURL": "https://example.com/js-master.jpg",
+      "imageURL": "https://www.pinterest.com/pin/6192518231933150/",
       "comments": ["Excellent guide!", "Helped me a lot."]
     },
     {
       "id": 3,
       "heading": "Understanding HTML Semantics",
       "authorname": "John Smith",
-      "imageURL": "https://example.com/html-semantics.jpg",
+      "imageURL": "https://www.pinterest.com/pin/309059593148979361/",
       "comments": ["Very clear explanations.", "I finally get it!"]
     },
     {
       "id": 4,
       "heading": "CSS Flexbox vs Grid",
       "authorname": "Mary Wambui",
-      "imageURL": "https://example.com/flex-vs-grid.png",
+      "imageURL": "https://www.pinterest.com/pin/422281211220187/",
       "comments": ["Great comparison.", "Useful examples."]
     },
     {
       "id": 5,
       "heading": "Beginner’s Guide to Git",
       "authorname": "James Mwangi",
-      "imageURL": "https://example.com/git-guide.png",
+      "imageURL": "https://www.pinterest.com/pin/6473993210068979/",
       "comments": ["Simple and to the point.", "Nice walkthrough."]
     },
     {
       "id": 6,
       "heading": "Node.js for Backend Development",
       "authorname": "Anne Njeri",
-      "imageURL": "https://example.com/node-backend.jpg",
+      "imageURL": "https://www.pinterest.com/pin/51932201947561022/",
       "comments": ["Perfect for beginners.", "Loved the code samples."]
     },
     {
       "id": 7,
       "heading": "Responsive Design Principles",
       "authorname": "Chris Omondi",
-      "imageURL": "https://example.com/responsive-design.jpg",
+      "imageURL": "https://www.pinterest.com/pin/321655598412274504/",
       "comments": ["Very informative.", "Mobile-first FTW!"]
     },
     {
       "id": 8,
       "heading": "API Integration with Fetch",
       "authorname": "Nelly Ochieng",
-      "imageURL": "https://example.com/fetch-api.png",
+      "imageURL": "https://i.pinimg.com/736x/76/12/c3/7612c3a00eb8090a96d2dc52fbd0ac96.jpg",
       "comments": ["Helped me connect to my API!", "Awesome tutorial."]
     },
     {
       "id": 9,
       "heading": "Debugging JavaScript Like a Pro",
       "authorname": "Daniel Kiptoo",
-      "imageURL": "https://example.com/debugging.jpg",
+      "imageURL": "https://www.pinterest.com/pin/604256475040056795/",
       "comments": ["This saved my project.", "Thank you!"]
     }
   ]
