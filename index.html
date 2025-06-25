@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Post Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-12 col-md-4" id="paneone">
+                <div class="listing"><span><Strong>Blog Posts</Strong></span>
+                    <ol id="orderedLists">
+
+                    </ol>
+                </div>
+                <div class="form-group">
+                    <span><u>+ Add New Post</u></span>
+                    <button id="initform" type="button">Create new Form(clickme)</button>
+                    <form id="myform" style="display:none;">
+                        <div class="labels">
+                            <label>Title:</label>
+                            <input type="text" id="title" placeholder="Please input blog heading" name="Title"
+                                required />
+                        </div>
+                        <div class="labels">
+                            <label>AuthorName:</label>
+                            <input type="text" id="authorName" placeholder="Input owner of blog" name="AuthorName"
+                                required />
+                        </div>
+                        <div class="labels">
+                            <label>Image Url:</label>
+                            <input type="url" id="imgUrl" placeholder="Please enter a valid image link" name="ImageUrl"
+                                required />
+                        </div>
+                        <div class="labels">
+                            <label>Comments:</label>
+                            <textarea name="comments" id="comments" maxlength="256" rows="4"
+                                placeholder="Comments"></textarea>
+                        </div>
+                        <div id="btns">
+                        <button type="submit" id="submitForm">Submit</button>
+                        <button type="reset" id="cancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-8" id="panetwo">
+                <div class="display" id="display" style="display:none;">
+                    <div class="card shadow" style="width: 100%; max-width: 600px; margin: 0 auto;">
+                        <div class="card-body" id="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title mb-0" id="displayTitle"></h5>
+                                <div>
+                                <button id="editbtn">Edit</button>
+                                <button id="deletebtn">Delete</button>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle mb-3 text-muted" id="authorname"></h6>
+                            <div id="imgurl" class="mb-3"></div>
+                            <p id="displaycomments" class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

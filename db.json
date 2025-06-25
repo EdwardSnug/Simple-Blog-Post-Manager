@@ -1,0 +1,71 @@
+{
+  "blog": [
+    {
+      "id": 1,
+      "heading": "The Future of Web Development",
+      "authorname": "Juliet Wangari",
+      "imageURL": "https://example.com/images/future-web.jpg",
+      "comments": [
+        "Great insights!",
+        "Loved the part about AI and web3.",
+        "Looking forward to more posts like this."
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "How to Master JavaScript",
+      "authorname": "Erick Karanja",
+      "imageURL": "https://example.com/js-master.jpg",
+      "comments": ["Excellent guide!", "Helped me a lot."]
+    },
+    {
+      "id": 3,
+      "heading": "Understanding HTML Semantics",
+      "authorname": "John Smith",
+      "imageURL": "https://example.com/html-semantics.jpg",
+      "comments": ["Very clear explanations.", "I finally get it!"]
+    },
+    {
+      "id": 4,
+      "heading": "CSS Flexbox vs Grid",
+      "authorname": "Mary Wambui",
+      "imageURL": "https://example.com/flex-vs-grid.png",
+      "comments": ["Great comparison.", "Useful examples."]
+    },
+    {
+      "id": 5,
+      "heading": "Beginner’s Guide to Git",
+      "authorname": "James Mwangi",
+      "imageURL": "https://example.com/git-guide.png",
+      "comments": ["Simple and to the point.", "Nice walkthrough."]
+    },
+    {
+      "id": 6,
+      "heading": "Node.js for Backend Development",
+      "authorname": "Anne Njeri",
+      "imageURL": "https://example.com/node-backend.jpg",
+      "comments": ["Perfect for beginners.", "Loved the code samples."]
+    },
+    {
+      "id": 7,
+      "heading": "Responsive Design Principles",
+      "authorname": "Chris Omondi",
+      "imageURL": "https://example.com/responsive-design.jpg",
+      "comments": ["Very informative.", "Mobile-first FTW!"]
+    },
+    {
+      "id": 8,
+      "heading": "API Integration with Fetch",
+      "authorname": "Nelly Ochieng",
+      "imageURL": "https://example.com/fetch-api.png",
+      "comments": ["Helped me connect to my API!", "Awesome tutorial."]
+    },
+    {
+      "id": 9,
+      "heading": "Debugging JavaScript Like a Pro",
+      "authorname": "Daniel Kiptoo",
+      "imageURL": "https://example.com/debugging.jpg",
+      "comments": ["This saved my project.", "Thank you!"]
+    }
+  ]
+}

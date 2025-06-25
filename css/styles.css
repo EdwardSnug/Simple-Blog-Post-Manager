@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(to left, #ff7e5f, #f8f5f2);
+}
+span {
+  color: #000;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+#paneone {
+  border: #000 solid 3px;
+  border-radius: 20px;
+}
+#submitForm {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submitForm:hover {
+  background-color: #0056b3;
+}
+#cancel {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: not-allowed;
+}
+#btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.blog-button {
+  margin: 5px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.blog-button:hover {
+  background-color: rgba(0, 0, 0, 0.4); /* darker on hover */
+  color: white;
+}
+#initform {
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: grab;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+#initform:hover {
+  background-color: rgba(0, 0, 0, 0.4); /* darker on hover */
+  color: white;
+}
+#panetwo {
+  padding: 0 10px;
+}
+#display {
+  border: none;
+  width: 100%;
+  padding: 0; /* Remove internal padding */
+  margin: 0 auto; /* Center if needed */
+  box-sizing: border-box;
+}
+#display .card {
+  width: 100%; /* Full width of the column */
+  max-width: 100%; /* Prevent any overflow */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#editbtn{
+    cursor:grab;
+}
+#editbtn:hover {
+  background-color: rgba(173, 216, 230, 0.6); /* light blue on hover */
+  color: black;
+}
+
+#deletebtn{
+    cursor:not-allowed;
+}
+#deletebtn:hover {
+  background-color: rgba(255, 102, 102, 0.6); /* light red with transparency */
+  color: white;
+}
