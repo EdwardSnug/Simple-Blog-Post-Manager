@@ -35,7 +35,7 @@
                         </div>
                         <div class="labels">
                             <label>Image Url:</label>
-                            <input type="url" id="imgUrl" placeholder="Please enter a valid image link" name="ImageUrl"
+                            <input type="text" id="imgUrl" placeholder="Please enter a valid image link" name="ImageUrl"
                                 required />
                         </div>
                         <div class="labels">
@@ -44,8 +44,8 @@
                                 placeholder="Comments"></textarea>
                         </div>
                         <div id="btns">
-                        <button type="submit" id="submitForm">Submit</button>
-                        <button type="reset" id="cancel">Cancel</button>
+                            <button type="submit" id="submitForm">Submit</button>
+                            <button type="reset" id="cancel">Cancel</button>
                         </div>
                     </form>
                 </div>
@@ -57,8 +57,8 @@
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <h5 class="card-title mb-0" id="displayTitle"></h5>
                                 <div>
-                                <button id="editbtn">Edit</button>
-                                <button id="deletebtn">Delete</button>
+                                    <button id="editbtn">Edit</button>
+                                    <button id="deletebtn">Delete</button>
                                 </div>
                             </div>
                             <h6 class="card-subtitle mb-3 text-muted" id="authorname"></h6>
@@ -67,6 +67,31 @@
                         </div>
                     </div>
                 </div>
+                <form id="edit-form" style="display:none;">
+                    <h3>Edit Blog Post</h3>
+                    <div class="labels">
+                        <label>Edit Title:</label>
+                        <input type="text" id="edit-heading" placeholder="Please input blog heading" name="Title" />
+                    </div>
+                    <div class="labels">
+                        <label>AuthorName:</label>
+                        <input type="text" id="edit-authorName" placeholder="Input owner of blog" name="AuthorName" />
+                    </div>
+                    <div class="labels">
+                        <label>Image Url:</label>
+                        <input type="text" id="edit-imgUrl" placeholder="Please enter a valid image link"
+                            name="ImageUrl" />
+                    </div>
+                    <div class="labels">
+                        <label>Comments:</label>
+                        <textarea name="comments" id="edit-comments" maxlength="256" rows="4"
+                            placeholder="Comments"></textarea>
+                    </div>
+                    <div id="btns">
+                        <button type="submit" id="submitedit">Submit</button>
+                        <button type="reset" id="canceledit">Cancel</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
